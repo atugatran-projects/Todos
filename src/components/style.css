@@ -227,9 +227,11 @@ input:focus {
   transform: translateY(0) scale(1, 1);
 }
 
-
 @media screen and (max-width: 500px) {
-  input{
+  input {
+    min-width: 80vw;
+  }
+  .eachItem {
     min-width: 80vw;
   }
 }
